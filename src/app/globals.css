@@ -1,18 +1,18 @@
-@import "tailwindcss";
+@import 'tailwindcss';
 
 @custom-variant dark (&:where(.dark, .dark *));
 
-
-
-
 body {
   font-family: var(--font-poppins), sans-serif;
-  
+  scroll-behavior: smooth;
 }
-::-webkit-scrollbar{
+::-webkit-scrollbar {
   display: none;
 }
-
-.reset-tw , .reset-tw *{
-   all: revert !important;
+* {
+  scroll-behavior: smooth;
+}
+.reset-tw,
+.reset-tw * {
+  all: revert !important;
 }
