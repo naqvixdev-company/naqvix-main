@@ -32,7 +32,7 @@ const Footer = () => {
       <div className="relative flex flex-col gap-8">
         <div className="flex items-center justify-between flex-wrap gap-6">
           <Image
-            src="/assets/logo.png"
+            src="/assets/whiteLogo.png"
             width={200}
             height={200}
             alt="Naqvix Logo"

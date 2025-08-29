@@ -1,22 +1,5 @@
 
 
-// "use client";
-
-// import dynamic from "next/dynamic";
-
-// const Map = dynamic(() => import("./MapComponent"), {
-//   ssr: false,
-//   loading: () => (
-//     <div className="w-[90%] m-auto h-96 my-10 flex items-center justify-center border rounded-2xl shadow-lg">
-//       <p>Loading map...</p>
-//     </div>
-//   ),
-// });
-
-// export default function LeafletMap() {
-//   return <Map />;
-// }
-
 "use client";
 
 import dynamic from "next/dynamic";

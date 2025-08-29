@@ -199,10 +199,10 @@ function ContactForm() {
 
   return (
     <div className="relative w-full flex justify-center items-center min-h-screen bg-gradient-to-br from-gray-100 to-gray-200 dark:bg-none p-6">
-      <div className="absolute top-0 left-1/2 w-72 h-72 bg-gradient-to-tr from-blue-400 via-purple-500 to-cyan-400 opacity-40 rounded-full blur-3xl pointer-events-none animate-pulse" aria-hidden="true"></div>
+
 
       <form 
-        className="relative md:max-w-lg w-full bg-white/20 dark:bg-gray-900/20 backdrop-blur-md rounded-3xl p-8 md:max-w-lg w-full shadow-xl border border-white/20 dark:border-gray-700/40"
+        className="relative md:max-w-lg w-full bg-white/20 dark:bg-gray-900/20 backdrop-blur-md rounded-3xl p-8 shadow-xl border border-white/20 dark:border-gray-700/40"
         onSubmit={handleSubmit}
         noValidate
         role="form"

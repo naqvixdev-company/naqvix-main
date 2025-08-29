@@ -44,7 +44,7 @@ const page = () => {
       <div className="flex lg:flex-row flex-col items-center justify-center gap-5">
         <div className="flex flex-col   w-full lg:w-[60%] gap-5">
           <h1
-            className="text-[7vw] md:text-[4.25vw] text-center lg:text-left font-extrabold leading-tight 
+            className="text-[7vw] md:text-[3.5vw] text-center lg:text-left font-extrabold leading-tight 
             bg-gradient-to-r from-blue-500 via-purple-500 to-purple-700 
             bg-clip-text text-transparent
             dark:bg-gradient-to-r dark:from-white dark:via-zinc-200 dark:to-zinc-400"
@@ -52,7 +52,7 @@ const page = () => {
             Automation & RPA – Work Smarter, Not Harder
           </h1>
           <p
-            className="w-full  m-auto lg:m-0 text-center lg:text-left md:w-2/3 text-base md:text-lg
+            className="w-full  m-auto lg:m-0 text-center lg:text-left md:w-[90%] text-base md:text-lg
             bg-gradient-to-r from-gray-700 via-gray-800 to-black 
             bg-clip-text text-transparent
             dark:bg-gradient-to-r dark:from-zinc-300 dark:via-zinc-400 dark:to-zinc-500"

@@ -100,14 +100,9 @@ const Navbar = () => {
   return (
     <header className="w-full px-6 py-4 transition-colors duration-1000  dark:bg-[#0F0E0E] flex items-center justify-between">
       <div className="relative">
-        {/* Radiant Glow */}
-        {theme === 'dark' && (
-          <div className="absolute -top-5 -left-5 w-32 h-32 bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 rounded-full blur-2xl opacity-60 animate-pulse"></div>
-        )}
-
         {/* Logo */}
         <Image
-          src={theme==="dark"?"/assets/whiteLogo.png":"/assets/logo.png"}
+          src={theme === 'dark' ? '/assets/whiteLogo.png' : '/assets/logo.png'}
           width={200}
           height={50}
           alt="logo"
@@ -125,13 +120,8 @@ const Navbar = () => {
               <li key={link.href} className="relative group">
                 <Link
                   href={link.href}
-                  className={`relative px-2 py-1 rounded-md transition-all cursor-pointer flex items-center justify-center 
-                hover:text-zinc-900 dark:hover:text-neutral-300
-                ${
-                  isActive
-                    ? "text-zinc-900 dark:text-neutral-200 before:content-[''] before:absolute before:inset-0 before:rounded-md before:bg-gradient-to-r before:from-purple-500 before:via-pink-500 before:to-yellow-500 before:blur-md before:opacity-40 before:-z-10"
-                    : ''
-                }`}
+                  className="relative px-2 py-1 rounded-md transition-all cursor-pointer flex items-center justify-center 
+                hover:text-zinc-900 dark:hover:text-neutral-300"
                 >
                   {link.label}
                   {link.hasDropdown && (
@@ -151,10 +141,10 @@ const Navbar = () => {
                           className="relative flex items-center gap-2 px-3 py-2 rounded-md transition-all hover:scale-105"
                         >
                           {/* Glow background */}
-                          <span
+                          {/* <span
                             className="absolute inset-0 rounded-md blur-md opacity-30 -z-10"
                             style={{ backgroundColor: service.color }}
-                          ></span>
+                          ></span> */}
 
                           {/* Icon */}
                           <Icon

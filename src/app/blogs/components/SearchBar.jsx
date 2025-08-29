@@ -31,7 +31,6 @@ const SearchBar = ({ onSearch, isLoading }) => {
   return (
     <div className="relative flex items-center justify-center gap-3 max-w-md">
 
-      <div className="absolute -left-4 top-1/2 -translate-y-1/2 w-40 border border-white h-16 bg-gradient-to-r from-blue-500 via-purple-500 to-navy-600 rounded-full blur-xl opacity-30"></div>
 
       {/* Search input */}
       <div className="relative">

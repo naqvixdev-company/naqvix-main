@@ -74,7 +74,7 @@ const CallToAction = () => {
       role="banner"
     >
       {/* Decorative Radiant Glow */}
-      <div
+      {/* <div
         className="absolute top-0 left-0 w-94 h-94 rounded-full blur-3xl opacity-70"
         style={{
           background:
@@ -82,7 +82,7 @@ const CallToAction = () => {
           zIndex: 0,
         }}
         aria-hidden="true"
-      ></div>
+      ></div> */}
 
       {/* Main CTA Content */}
       <article className="relative items-start flex flex-col w-full md:w-1/2 gap-5 z-10">
