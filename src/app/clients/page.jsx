@@ -190,14 +190,14 @@ export default function OurClientsPage() {
   const testimonials = [
     {
       quote:
-        'Naqvix transformed our business processes with their innovative AI solutions. The efficiency gains have been remarkable.',
+        'Naqvix transformed our business processes with their  AI solutions. The efficiency gains have been remarkable.',
       author: 'Sarah Johnson',
       company: 'ROADSIDER',
       rating: 5,
     },
     {
       quote:
-        'Their BPO services are exceptional. Professional, reliable, and they truly understand our business needs.',
+        'Their BPO services are professional, reliable, and they truly understand our business needs.',
       author: 'Ahmed Hassan',
       company: 'REHAISH',
       rating: 5,
@@ -219,11 +219,11 @@ export default function OurClientsPage() {
     >
       {/* Hero Section */}
       <section className="w-full pt-20 pb-16 px-8 dark:bg-[#0F0E0E]">
-        <div className="max-w-6xl mx-auto text-center">
+        <div className="max-w-6xl mx-auto  text-center">
           <UHeading text="OUR CLIENTS" />
-          <div className="max-w-3xl mx-auto mb-16">
+          <div className="max-w-3xl mx-auto mb-16 mt-5">
             <GlassmorphismCard>
-              <h2 className="text-2xl md:text-3xl font-bold text-gray-900 dark:text-white mb-6">
+              <h2 className="text-2xl md:text-3xl  font-bold text-gray-900 dark:text-white mb-6">
                 Trusted by businesses worldwide
               </h2>
               <p className="text-lg text-gray-800/90 dark:text-white/90 leading-relaxed">
@@ -266,9 +266,14 @@ export default function OurClientsPage() {
       <section className="w-full py-16 px-8  dark:bg-[#0F0E0E]">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-12">
-            <h2 className="text-3xl md:text-4xl font-bold bg-gradient-to-r from-blue-500 via-purple-500 to-purple-700 bg-clip-text text-transparent mb-4">
-              Brands That Trust Us
-            </h2>
+        <h2
+          className="text-[3.5vw] text-center  md:text-[3.5vw] font-extrabold leading-tight 
+            bg-gradient-to-r from-blue-500 via-purple-500 to-purple-700 
+            bg-clip-text text-transparent
+            dark:bg-gradient-to-r dark:from-white dark:via-zinc-200 dark:to-zinc-400"
+        >
+          Brands That Trust Us
+        </h2>
             <p className="text-lg text-gray-800/90 dark:text-white/90">
               From startups to Fortune 500 companies
             </p>
@@ -291,9 +296,15 @@ export default function OurClientsPage() {
       <section className="w-full py-16 px-8  dark:bg-[#0F0E0E]">
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-16">
-            <h2 className="text-3xl md:text-4xl font-bold bg-gradient-to-r from-blue-500 via-purple-500 to-purple-700 bg-clip-text text-transparent mb-4">
-              What Our Clients Say
-            </h2>
+        <h2
+
+          className="text-[3.5vw] text-center  md:text-[3.5vw] font-extrabold leading-tight 
+            bg-gradient-to-r from-blue-500 via-purple-500 to-purple-700 
+            bg-clip-text text-transparent
+            dark:bg-gradient-to-r dark:from-white dark:via-zinc-200 dark:to-zinc-400"
+        >
+          What Our Clients Say
+        </h2>
             <p className="text-lg text-gray-800/90 dark:text-white/90">
               Real feedback from real partnerships
             </p>
@@ -318,9 +329,15 @@ export default function OurClientsPage() {
       <section className="w-full py-16 px-8  dark:bg-[#0F0E0E]">
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-16">
-            <h2 className="text-3xl md:text-4xl font-bold bg-gradient-to-r from-blue-500 via-purple-500 to-purple-700 bg-clip-text text-transparent mb-4">
-              Success Stories
-            </h2>
+        <h2
+       
+          className="text-[3.5vw] text-center  md:text-[3.5vw] font-extrabold leading-tight 
+            bg-gradient-to-r from-blue-500 via-purple-500 to-purple-700 
+            bg-clip-text text-transparent
+            dark:bg-gradient-to-r dark:from-white dark:via-zinc-200 dark:to-zinc-400"
+        >
+          Success Stories
+        </h2>
             <p className="text-lg text-gray-800/90 dark:text-white/90 mb-8">
               Transforming businesses through innovation
             </p>
@@ -380,8 +397,7 @@ export default function OurClientsPage() {
               proven solutions
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <GlassButton>Start Your Project</GlassButton>
-              <GlassButton>Schedule Consultation</GlassButton>
+              <GlassButton text='Start Conversation' href='/contact'/>
             </div>
           </GlassmorphismCard>
         </div>

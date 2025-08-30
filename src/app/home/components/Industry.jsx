@@ -189,8 +189,8 @@ const Industry = () => {
                 aria-labelledby={`industry-${idx + 1}-title`}
                 aria-describedby={`industry-${idx + 1}-description`}
               >
-                <GlassmorphismCard className="w-full" textSize="text-sm">
-                  <header className="flex items-center gap-3 mb-3">
+                <GlassmorphismCard className="w-full " textSize="text-sm">
+                  <header className="flex items-center gap-3 mb-1">
                     <IconComponent
                       size={32}
                       className="text-blue-500 dark:text-cyan-400"

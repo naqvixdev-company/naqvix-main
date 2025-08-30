@@ -88,7 +88,7 @@ const page = () => {
             Naqvix creates secure, scalable, and user-friendly digital products
             that drive business growth.
           </p>
-          <div className="w-[250px] m-auto lg:m-0">
+          <div className="w-[200px] m-auto lg:m-0">
             <GlassButton text="Start Developing" href="/contact" />
           </div>
         </div>
@@ -127,7 +127,7 @@ const page = () => {
       </div>
       <div className="flex gap-10 flex-col md:flex-row mt-5 mb-20">
         <div className="flex flex-col border rounded-xl  dark:border-white border-neutral-600 w-full  md:w-[40%] p-4 items-center justify-center">
-          <h1 className="dark:text-zinc-500 text-center font-bold text-2xl">
+          <h1 className="dark:text-white text-center font-bold text-2xl">
             Modern, Responsive Designs
           </h1>
           <div className="sm:flex items-center justify-center hidden w-full">
@@ -141,7 +141,7 @@ const page = () => {
               style={{ width: 200, height: 200 }}
             ></lord-icon>
           </div>
-          <p className="text-center dark:text-white">
+          <p className="text-center dark:text-neutral-500">
             Websites and apps crafted to look stunning and work seamlessly
             across all devices.
           </p>
@@ -149,10 +149,10 @@ const page = () => {
         <div className="flex flex-col ">
           <div className="flex sm:flex-row flex-col border rounded-xl  dark:border-white border-neutral-600  gap-10 justify-center p-5 ">
             <div className="flex flex-col items-center justify-center w-full sm:w-[50%] gap-5">
-              <h1 className="dark:text-zinc-500 text-center font-bold text-2xl">
+              <h1 className="dark:text-white text-center font-bold text-2xl">
                 High Performance & Security
               </h1>
-              <p className="text-center dark:text-white">
+              <p className="text-center dark:text-neutral-500">
                 Fast, reliable, and secure solutions to keep your business
                 running smoothly.
               </p>
@@ -171,7 +171,7 @@ const page = () => {
           </div>
           <div className="flex flex-col sm:flex-row gap-5 mt-5">
             <div className="flex p-5 border rounded-xl  dark:border-white border-neutral-600 flex-col  sm:w-[50%] w-full items-center justify-center">
-              <h1 className="dark:text-zinc-500 text-center font-bold text-2xl">
+              <h1 className="dark:text-white text-center font-bold text-2xl">
                 Scalable Architecture
               </h1>
               <div className="sm:flex items-center justify-center hidden w-full">
@@ -185,13 +185,13 @@ const page = () => {
                   style={{ width: 150, height: 150 }}
                 ></lord-icon>
               </div>
-              <p className="text-center dark:text-white">
+              <p className="text-center dark:text-neutral-500">
                 Systems built to grow with your business without performance
                 trade-offs.
               </p>
             </div>
             <div className="flex border dark:border-white border-neutral-600 rounded-xl p-5 flex-col   sm:w-[50%] w-full items-center justify-center">
-              <h1 className="dark:text-zinc-500 text-center font-bold text-2xl">
+              <h1 className="dark:text-white text-center font-bold text-2xl">
                 Tailored Solutions for Your Needs
               </h1>
               <div className="sm:flex items-center justify-center hidden w-full">
@@ -205,7 +205,7 @@ const page = () => {
                   style={{ width: 150, height: 150 }}
                 ></lord-icon>
               </div>
-              <p className="text-center dark:text-white">
+              <p className="text-center dark:text-neutral-500">
                 Custom development that fits your unique business goals and
                 workflows.
               </p>

@@ -178,7 +178,7 @@ const ServicesPage = () => {
   return (
     <>
       <main
-        className="w-full px-10 my-13 flex flex-col"
+        className="w-full px-10 my-15 flex flex-col"
         role="main"
         aria-labelledby="services-heading"
       >

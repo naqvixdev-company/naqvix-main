@@ -113,27 +113,28 @@ const page = () => {
             costs, and improve customer satisfaction. Our team ensures your
             business runs efficiently while you focus on growth.
           </p>
-          <div className="w-[250px] m-auto lg:m-0">
+          <div className="w-[223px] m-auto lg:m-0">
             <GlassButton text="Boost Your Business" href="/contact" />
           </div>
         </div>
         <div className="flex items-center sm:flex-row flex-col gap-5 justify-center">
           <Image
             src="/assets/bpo2.jpg"
-            width={300}
-            height={300}
-            className="rounded-2xl"
-            alt="image"
-          />
-          {/* <Image
-            src="/assets/bpo1.jpg"
             width={250}
             height={250}
             className="rounded-2xl"
             alt="image"
-          /> */}
+          />
+          <Image
+            src="/assets/bpo1.jpg"
+            width={200}
+            height={400}
+            className="rounded-2xl h-1/2"
+            alt="image"
+          />
         </div>
       </div>
+
       <div className="flex flex-col items-center justify-center mt-20 gap-5">
         <UHeading text={'OUR BPO SERVICES'} />
         <div className="flex flex-wrap mt-5 justify-center gap-6 p-4">
@@ -165,9 +166,9 @@ const page = () => {
       </div>
       <div className="flex gap-10 flex-col md:flex-row mt-5 mb-20">
         <div className="flex flex-col border rounded-xl  dark:border-white border-neutral-600 w-full  md:w-[40%] p-4 items-center justify-center">
-          <h1 className="dark:text-zinc-500 text-center font-bold text-2xl">
+          <h2 className="dark:text-white text-center font-bold text-2xl">
             Reduced Operational Costs
-          </h1>
+          </h2>
           <div className="sm:flex items-center justify-center hidden w-full">
             <lord-icon
               src="https://cdn.lordicon.com/bsdkzyjd.json"
@@ -179,7 +180,7 @@ const page = () => {
               style={{ width: 200, height: 200 }}
             ></lord-icon>
           </div>
-          <p className="text-center dark:text-white">
+          <p className="text-center dark:text-neutral-500">
             Cut expenses while maintaining efficiency through our optimized
             service solutions.
           </p>
@@ -187,10 +188,10 @@ const page = () => {
         <div className="flex flex-col ">
           <div className="flex sm:flex-row flex-col border rounded-xl  dark:border-white border-neutral-600  gap-10 justify-center p-5 ">
             <div className="flex flex-col items-center justify-center w-full sm:w-[40%] gap-5">
-              <h1 className="dark:text-zinc-500 text-center font-bold text-2xl">
+              <h1 className="dark:text-white text-center font-bold text-2xl">
                 Access to Skilled Professionals
               </h1>
-              <p className="text-center dark:text-white">
+              <p className="text-center dark:text-neutral-500">
                 Work with experienced experts who bring knowledge and precision
                 to every task.
               </p>
@@ -209,7 +210,7 @@ const page = () => {
           </div>
           <div className="flex flex-col sm:flex-row gap-5 mt-5">
             <div className="flex p-5 border rounded-xl  dark:border-white border-neutral-600 flex-col  sm:w-[50%] w-full items-center justify-center">
-              <h1 className="dark:text-zinc-500 text-center font-bold text-2xl">
+              <h1 className="dark:text-white text-center font-bold text-2xl">
                 24/7 Availability for Global Clients
               </h1>
               <div className="sm:flex items-center justify-center hidden w-full">
@@ -223,13 +224,13 @@ const page = () => {
                   style={{ width: 150, height: 150 }}
                 ></lord-icon>
               </div>
-              <p className="text-center dark:text-white">
+              <p className="text-center dark:text-neutral-500">
                 Enjoy uninterrupted support around the clock, no matter where
                 your business operates.
               </p>
             </div>
             <div className="flex border dark:border-white border-neutral-600 rounded-xl p-5 flex-col   sm:w-[50%] w-full items-center justify-center">
-              <h1 className="dark:text-zinc-500 text-center font-bold text-2xl">
+              <h1 className="dark:text-white text-center font-bold text-2xl">
                 Scalable Solutions
               </h1>
               <div className="sm:flex items-center justify-center hidden w-full">
@@ -243,7 +244,7 @@ const page = () => {
                   style={{ width: 150, height: 150 }}
                 ></lord-icon>
               </div>
-              <p className="text-center dark:text-white">
+              <p className="text-center dark:text-neutral-500">
                 Easily adjust services to match your growth and changing
                 business needs.
               </p>

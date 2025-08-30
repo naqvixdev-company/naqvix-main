@@ -30,8 +30,6 @@ const SearchBar = ({ onSearch, isLoading }) => {
 
   return (
     <div className="relative flex items-center justify-center gap-3 max-w-md">
-
-
       {/* Search input */}
       <div className="relative">
         <input
@@ -62,10 +60,15 @@ const SearchBar = ({ onSearch, isLoading }) => {
         onClick={handleSearchClick}
         disabled={isLoading}
         className={`
-          relative cursor-pointer z-10 px-6 py-3 bg-gradient-to-r from-blue-600 via-purple-600 to-navy-700 
-          text-white font-medium rounded-lg transition-opacity duration-200
-          ${isLoading ? 'opacity-50 cursor-not-allowed' : 'hover:opacity-90'}
-        `}
+    relative cursor-pointer z-10 px-6 py-3 
+    bg-gradient-to-r 
+    from-blue-600 from-[0%] 
+    via-blue-600 via-[60%] 
+    to-purple-700 to-[100%] 
+    text-white font-medium rounded-lg 
+    transition-opacity duration-200
+    ${isLoading ? 'opacity-50 cursor-not-allowed' : 'hover:opacity-90'}
+  `}
       >
         {isLoading ? 'Searching...' : 'Search'}
       </button>

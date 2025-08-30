@@ -86,7 +86,7 @@ const page = () => {
             Naqvix provides professional financial management and accounting
             support to keep your business running smoothly.
           </p>
-          <div className="w-[250px] m-auto lg:m-0">
+          <div className="w-[225px] m-auto lg:m-0">
             <GlassButton text="Get Finance Support" href="/contact" />
           </div>
         </div>
@@ -125,7 +125,7 @@ const page = () => {
       </div>
       <div className="flex gap-10 flex-col md:flex-row mt-5 mb-20">
         <div className="flex flex-col border rounded-xl  dark:border-white border-neutral-600 w-full  md:w-[40%] p-4 items-center justify-center">
-          <h1 className="dark:text-zinc-500 text-center font-bold text-2xl">
+          <h1 className="dark:text-white text-center font-bold text-2xl">
             Accurate Records
           </h1>
           <div className="sm:flex items-center justify-center hidden w-full">
@@ -139,7 +139,7 @@ const page = () => {
               style={{ width: 200, height: 200 }}
             ></lord-icon>
           </div>
-          <p className="text-center dark:text-white">
+          <p className="text-center dark:text-neutral-500">
             Maintain precise and up-to-date financial data to eliminate costly
             errors.
           </p>
@@ -147,10 +147,10 @@ const page = () => {
         <div className="flex flex-col ">
           <div className="flex sm:flex-row flex-col border rounded-xl  dark:border-white border-neutral-600  gap-10 justify-center p-5 ">
             <div className="flex flex-col items-center justify-center w-full sm:w-[50%] gap-5">
-              <h1 className="dark:text-zinc-500 text-center font-bold text-2xl">
+              <h1 className="dark:text-white text-center font-bold text-2xl">
                 Improved Cash Flow Management
               </h1>
-              <p className="text-center dark:text-white">
+              <p className="text-center dark:text-neutral-500">
                 Optimize inflows and outflows to keep your business running
                 smoothly.
               </p>
@@ -169,7 +169,7 @@ const page = () => {
           </div>
           <div className="flex flex-col sm:flex-row gap-5 mt-5">
             <div className="flex p-5 border rounded-xl  dark:border-white border-neutral-600 flex-col  sm:w-[50%] w-full items-center justify-center">
-              <h1 className="dark:text-zinc-500 text-center font-bold text-2xl">
+              <h1 className="dark:text-white text-center font-bold text-2xl">
                 Compliance with Regulations
               </h1>
               <div className="sm:flex items-center justify-center hidden w-full">
@@ -183,13 +183,13 @@ const page = () => {
                   style={{ width: 150, height: 150 }}
                 ></lord-icon>
               </div>
-              <p className="text-center dark:text-white">
+              <p className="text-center dark:text-neutral-500">
                 tay fully aligned with legal and tax standards to avoid
                 penalties.
               </p>
             </div>
             <div className="flex border dark:border-white border-neutral-600 rounded-xl p-5 flex-col   sm:w-[50%] w-full items-center justify-center">
-              <h1 className="dark:text-zinc-500 text-center font-bold text-2xl">
+              <h1 className="dark:text-white text-center font-bold text-2xl">
                 Better Financial Decision-Making
               </h1>
               <div className="sm:flex items-center justify-center hidden w-full">
@@ -203,7 +203,7 @@ const page = () => {
                   style={{ width: 150, height: 150 }}
                 ></lord-icon>
               </div>
-              <p className="text-center dark:text-white">
+              <p className="text-center dark:text-neutral-500">
                 Gain clear insights for smarter, future-focused business
                 strategies.
               </p>

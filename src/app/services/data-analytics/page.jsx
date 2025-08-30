@@ -62,7 +62,7 @@ const page = () => {
           >
             Data is power — and Naqvix turns it into your competitive advantage.
           </p>
-          <div className="w-[250px] m-auto lg:m-0">
+          <div className="w-[240px] m-auto lg:m-0">
             <GlassButton text="Get Data Consultation" href="/contact" />
           </div>
         </div>
@@ -101,7 +101,7 @@ const page = () => {
       </div>
       <div className="flex gap-10 flex-col md:flex-row mt-5 mb-20">
         <div className="flex flex-col border rounded-xl  dark:border-white border-neutral-600 w-full  md:w-[40%] p-4 items-center justify-center">
-          <h1 className="dark:text-zinc-500 text-center font-bold text-2xl">
+          <h1 className="dark:text-white text-center font-bold text-2xl">
             Data Driven Decisions
           </h1>
           <div className="sm:flex items-center justify-center hidden w-full">
@@ -115,17 +115,17 @@ const page = () => {
               style={{ width: 200, height: 200 }}
             ></lord-icon>
           </div>
-          <p className="text-center dark:text-white">
+          <p className="text-center dark:text-neutral-500">
             Make smarter business moves backed by accurate insights.
           </p>
         </div>
         <div className="flex flex-col ">
           <div className="flex sm:flex-row flex-col border rounded-xl  dark:border-white border-neutral-600  gap-10 justify-center p-5 ">
             <div className="flex flex-col items-center justify-center w-full sm:w-[50%] gap-5">
-              <h1 className="dark:text-zinc-500 text-center font-bold text-2xl">
+              <h1 className="dark:text-white text-center font-bold text-2xl">
                 Identify trends and opportunities
               </h1>
-              <p className="text-center dark:text-white">
+              <p className="text-center dark:text-neutral-500">
                 Spot market shifts early to stay ahead of competition.
               </p>
             </div>
@@ -143,7 +143,7 @@ const page = () => {
           </div>
           <div className="flex flex-col sm:flex-row gap-5 mt-5">
             <div className="flex p-5 border rounded-xl  dark:border-white border-neutral-600 flex-col  sm:w-[50%] w-full items-center justify-center">
-              <h1 className="dark:text-zinc-500 text-center font-bold text-2xl">
+              <h1 className="dark:text-white text-center font-bold text-2xl">
                 Reduce Risks
               </h1>
               <div className="sm:flex items-center justify-center hidden w-full">
@@ -157,12 +157,12 @@ const page = () => {
                   style={{ width: 150, height: 150 }}
                 ></lord-icon>
               </div>
-              <p className="text-center dark:text-white">
+              <p className="text-center dark:text-neutral-500">
                 Minimize uncertainty with predictive data models.
               </p>
             </div>
             <div className="flex border dark:border-white border-neutral-600 rounded-xl p-5 flex-col   sm:w-[50%] w-full items-center justify-center">
-              <h1 className="dark:text-zinc-500 text-center font-bold text-2xl">
+              <h1 className="dark:text-white text-center font-bold text-2xl">
                 Clear visual reports
               </h1>
               <div className="sm:flex items-center justify-center hidden w-full">
@@ -176,7 +176,7 @@ const page = () => {
                   style={{ width: 150, height: 150 }}
                 ></lord-icon>
               </div>
-              <p className="text-center dark:text-white">
+              <p className="text-center dark:text-neutral-500">
                 Understand complex data through easy-to-read dashboards.
               </p>
             </div>

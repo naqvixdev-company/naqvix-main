@@ -79,7 +79,7 @@ const page = () => {
             Naqvix leverages Artificial Intelligence to automate processes,
             improve decision-making, and enhance customer experiences.
           </p>
-          <div className="w-[250px] m-auto lg:m-0">
+          <div className="w-[160px] m-auto lg:m-0">
             <GlassButton text="Talk AI Now" href="/contact" />
           </div>
         </div>
@@ -118,7 +118,7 @@ const page = () => {
       </div>
       <div className="flex gap-10 flex-col md:flex-row mt-5 mb-20">
         <div className="flex flex-col border rounded-xl  dark:border-white border-neutral-600 w-full  md:w-[40%] p-4 items-center justify-center">
-          <h1 className="dark:text-zinc-500 text-center font-bold text-2xl">
+          <h1 className="dark:text-white text-center font-bold text-2xl">
             Faster Response Times
           </h1>
           <div className="sm:flex items-center justify-center hidden w-full">
@@ -132,17 +132,17 @@ const page = () => {
               style={{ width: 200, height: 200 }}
             ></lord-icon>
           </div>
-          <p className="text-center dark:text-white">
+          <p className="text-center dark:text-neutral-500">
             Deliver quick, efficient, and reliable support with AI automation.
           </p>
         </div>
         <div className="flex flex-col ">
           <div className="flex sm:flex-row flex-col border rounded-xl  dark:border-white border-neutral-600  gap-10 justify-center p-5 ">
             <div className="flex flex-col items-center justify-center w-full sm:w-[50%] gap-5">
-              <h1 className="dark:text-zinc-500 text-center font-bold text-2xl">
+              <h1 className="dark:text-white text-center font-bold text-2xl">
                 Improved Customer Satisfaction
               </h1>
-              <p className="text-center dark:text-white">
+              <p className="text-center dark:text-neutral-500">
                 Enhance overall user experience through personalized
                 interactions.
               </p>
@@ -161,7 +161,7 @@ const page = () => {
           </div>
           <div className="flex flex-col sm:flex-row gap-5 mt-5">
             <div className="flex p-5 border rounded-xl  dark:border-white border-neutral-600 flex-col  sm:w-[50%] w-full items-center justify-center">
-              <h1 className="dark:text-zinc-500 text-center font-bold text-2xl">
+              <h1 className="dark:text-white text-center font-bold text-2xl">
                 Predictive Insights
               </h1>
               <div className="sm:flex items-center justify-center hidden w-full">
@@ -175,13 +175,13 @@ const page = () => {
                   style={{ width: 150, height: 150 }}
                 ></lord-icon>
               </div>
-              <p className="text-center dark:text-white">
+              <p className="text-center dark:text-neutral-500">
                 Make smarter business decisions using powerful AI-driven
                 analytics.
               </p>
             </div>
             <div className="flex border dark:border-white border-neutral-600 rounded-xl p-5 flex-col   sm:w-[50%] w-full items-center justify-center">
-              <h1 className="dark:text-zinc-500 text-center font-bold text-2xl">
+              <h1 className="dark:text-white text-center font-bold text-2xl">
                 Reduced Workload
               </h1>
               <div className="sm:flex items-center justify-center hidden w-full">
@@ -195,7 +195,7 @@ const page = () => {
                   style={{ width: 150, height: 150 }}
                 ></lord-icon>
               </div>
-              <p className="text-center dark:text-white">
+              <p className="text-center dark:text-neutral-500">
                 Automate repetitive tasks and free up valuable team resources.
               </p>
             </div>

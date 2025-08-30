@@ -2,8 +2,10 @@
 import Spline from '@splinetool/react-spline';
 import { useState } from 'react';
 import ModelCanvas from './Model';
+import { useTheme } from '@/context/AppContext';
 
 const Hero = () => {
+  const { theme } = useTheme();
   const [iframeLoaded, setIframeLoaded] = useState(false);
   const [iframeError, setIframeError] = useState(false);
 
@@ -93,10 +95,18 @@ const Hero = () => {
 
       {/* INTERACTIVE VISUAL ELEMENT */}
       <aside
-        className="w-fit hidden lg:flex md:w-[40%]  h-fit md:h-full relative"
+        className="w-fit hidden lg:flex md:w-[50%]  h-fit md:h-full relative"
         aria-label="Interactive 3D animation showcasing technology innovation"
       >
-        <Spline scene="https://prod.spline.design/5Btk-SK5JsnjdaZg/scene.splinecode"  className="absolute z-10 lg:top-0 left-0  inset-0 w-full h-full" />
+        <Spline
+          scene={
+            theme === 'light'
+              ? 'https://prod.spline.design/5Btk-SK5JsnjdaZg/scene.splinecode'
+              : 'https://prod.spline.design/4ZOpBniUY1ve93zc/scene.splinecode'
+          }
+          className="absolute z-10 lg:top-0 left-10  inset-0 w-full h-full"
+        />
+
         {/* <ModelCanvas/> */}
         {/* <iframe
           src="https://my.spline.design/genkubgreetingrobot-NLOanKRtRm649vbpDGi3mhZD/"

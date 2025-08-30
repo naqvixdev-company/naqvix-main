@@ -60,8 +60,8 @@ const page = () => {
             Naqvix automates repetitive tasks so your team can focus on
             high-value work.
           </p>
-          <div className="w-[250px] m-auto lg:m-0">
-            <GlassButton text="Request Automation Demo" href="/contact" />
+          <div className="w-[185px] m-auto lg:m-0">
+            <GlassButton text="Request Demo" href="/contact" />
           </div>
         </div>
         <div className="flex items-center sm:flex-row flex-col gap-5 justify-center">
@@ -99,7 +99,7 @@ const page = () => {
       </div>
       <div className="flex gap-10 flex-col md:flex-row mt-5 mb-20">
         <div className="flex flex-col border rounded-xl  dark:border-white border-neutral-600 w-full  md:w-[40%] p-4 items-center justify-center">
-          <h1 className="dark:text-zinc-500 text-center font-bold text-2xl">
+          <h1 className="dark:text-white text-center font-bold text-2xl">
             Reduced manual work
           </h1>
           <div className="sm:flex items-center justify-center hidden w-full">
@@ -113,17 +113,17 @@ const page = () => {
               style={{ width: 200, height: 200 }}
             ></lord-icon>
           </div>
-          <p className="text-center dark:text-white">
+          <p className="text-center dark:text-neutral-500">
             Automation eliminates repetitive and tedious tasks, allowing
           </p>
         </div>
         <div className="flex flex-col ">
           <div className="flex sm:flex-row flex-col border rounded-xl  dark:border-white border-neutral-600  gap-10 justify-center p-5 ">
             <div className="flex flex-col items-center justify-center w-full sm:w-[50%] gap-5">
-              <h1 className="dark:text-zinc-500 text-center font-bold text-2xl">
+              <h1 className="dark:text-white text-center font-bold text-2xl">
                 Faster Operations
               </h1>
-              <p className="text-center dark:text-white">
+              <p className="text-center dark:text-neutral-500">
                 Automated workflows streamline processes, reducing delays and
                 ensuring tasks are completed in a fraction of the time.
               </p>
@@ -142,7 +142,7 @@ const page = () => {
           </div>
           <div className="flex flex-col sm:flex-row gap-5 mt-5">
             <div className="flex p-5 border rounded-xl  dark:border-white border-neutral-600 flex-col  sm:w-[50%] w-full items-center justify-center">
-              <h1 className="dark:text-zinc-500 text-center font-bold text-2xl">
+              <h1 className="dark:text-white text-center font-bold text-2xl">
                 Lower Operational Costs
               </h1>
               <div className="sm:flex items-center justify-center hidden w-full">
@@ -156,13 +156,13 @@ const page = () => {
                   style={{ width: 150, height: 150 }}
                 ></lord-icon>
               </div>
-              <p className="text-center dark:text-white">
+              <p className="text-center dark:text-neutral-500">
                 By minimizing human effort and errors, automation helps
                 organizations cut down on labor expenses and resource wastage.
               </p>
             </div>
             <div className="flex border dark:border-white border-neutral-600 rounded-xl p-5 flex-col   sm:w-[50%] w-full items-center justify-center">
-              <h1 className="dark:text-zinc-500 text-center font-bold text-2xl">
+              <h1 className="dark:text-white text-center font-bold text-2xl">
                 Increased Accuracy
               </h1>
               <div className="sm:flex items-center justify-center hidden w-full">
@@ -176,7 +176,7 @@ const page = () => {
                   style={{ width: 150, height: 150 }}
                 ></lord-icon>
               </div>
-              <p className="text-center dark:text-white">
+              <p className="text-center dark:text-neutral-500">
                 Automated systems execute tasks with precision, significantly
                 reducing the chances of mistakes and improving overall data
                 reliability.

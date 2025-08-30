@@ -120,18 +120,41 @@ const Navbar = () => {
               <li key={link.href} className="relative group">
                 <Link
                   href={link.href}
-                  className="relative px-2 py-1 rounded-md transition-all cursor-pointer flex items-center justify-center 
-                hover:text-zinc-900 dark:hover:text-neutral-300"
+                  className={`
+      relative px-2 py-1 rounded-md transition-all flex items-center justify-center
+      hover:text-zinc-900 dark:hover:text-neutral-300
+      ${
+        pathname === link.href
+          ? 'text-zinc-900 dark:text-neutral-200'
+          : 'text-zinc-600 dark:text-neutral-400'
+      }
+    `}
                 >
                   {link.label}
                   {link.hasDropdown && (
                     <ChevronDown className="w-4 h-4 ml-1 group-hover:animate-bounce" />
                   )}
+
+                  {/* Underline animation */}
+                  <span
+                    className={`
+        absolute -bottom-1 left-0 w-0 rounded-full h-[2px] bg-gradient-to-r from-blue-500 to-purple-500 
+        transition-all duration-300 ease-out 
+        group-hover:w-[90%]
+        ${pathname === link.href ? 'w-full' : 'w-0'}
+      `}
+                  ></span>
                 </Link>
 
-                {/* Dropdown for SERVICES */}
+                {/* Dropdown with fade + slide */}
                 {link.hasDropdown && (
-                  <div className="absolute w-[500px] left-0 top-full mt-3 hidden group-hover:grid grid-cols-2 gap-x-4 gap-y-3 bg-white dark:bg-neutral-900 p-5 rounded-xl shadow-xl border border-gray-200 dark:border-neutral-700 z-50">
+                  <div
+                    className="absolute w-[500px] left-0 top-full mt-3 opacity-0 scale-95 translate-y-2 
+        group-hover:opacity-100 group-hover:scale-100 group-hover:translate-y-0 
+        transition-all duration-300 ease-out pointer-events-none group-hover:pointer-events-auto
+        grid grid-cols-2 gap-x-4 gap-y-3 bg-white dark:bg-neutral-900 p-5 rounded-xl shadow-xl 
+        border border-gray-200 dark:border-neutral-700 z-50"
+                  >
                     {services.map((service) => {
                       const Icon = service.icon;
                       return (
@@ -140,19 +163,10 @@ const Navbar = () => {
                           href={service.link}
                           className="relative flex items-center gap-2 px-3 py-2 rounded-md transition-all hover:scale-105"
                         >
-                          {/* Glow background */}
-                          {/* <span
-                            className="absolute inset-0 rounded-md blur-md opacity-30 -z-10"
-                            style={{ backgroundColor: service.color }}
-                          ></span> */}
-
-                          {/* Icon */}
                           <Icon
                             className="w-5 h-5"
                             style={{ color: service.color }}
                           />
-
-                          {/* Title */}
                           <span className="text-sm font-medium text-zinc-700 dark:text-neutral-300">
                             {service.title}
                           </span>

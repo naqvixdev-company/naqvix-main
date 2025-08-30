@@ -79,7 +79,7 @@ const VideoCard = ({ video, index }) => {
         href={video.youtubeUrl}
         target="_blank"
         rel="noopener noreferrer"
-        className="block focus:outline-none focus:ring-2 focus:ring-red-500 focus:ring-offset-2 dark:focus:ring-offset-gray-900 rounded-2xl"
+        className="block focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 dark:focus:ring-offset-gray-900 rounded-2xl"
       >
         <div className="relative overflow-hidden rounded-2xl bg-white dark:bg-gray-800/50 border border-gray-200 dark:border-gray-700/50 shadow-sm hover:shadow-2xl dark:shadow-gray-900/20 transition-all duration-500 hover:-translate-y-2 group">
           {/* Thumbnail Container */}
@@ -116,8 +116,8 @@ const VideoCard = ({ video, index }) => {
             {/* Final Fallback - No Thumbnail Available */}
             {(!video.thumbnailUrl || imageError) && (
               <div className="absolute inset-0 flex flex-col items-center justify-center bg-gradient-to-br from-red-50 to-pink-50 dark:from-red-900/20 dark:to-pink-900/20">
-                <VideoIcon className="w-16 h-16 text-red-400 dark:text-red-500 mb-2" />
-                <span className="text-sm text-red-500 dark:text-red-400 font-medium">
+                <VideoIcon className="w-16 h-16 text-blue-400 dark:text-blue-500 mb-2" />
+                <span className="text-sm text-blue-500 dark:text-blue-400 font-medium">
                   Video Thumbnail
                 </span>
               </div>
@@ -126,7 +126,7 @@ const VideoCard = ({ video, index }) => {
             {/* Play Button Overlay */}
             <div className="absolute inset-0  bg-opacity-0 group-hover:bg-opacity-30 transition-all duration-300 flex items-center justify-center">
               <div className="transform scale-0 group-hover:scale-100 transition-all duration-300 ease-out">
-                <div className="flex items-center justify-center w-16 h-16 bg-red-600 rounded-full shadow-2xl">
+                <div className="flex items-center justify-center w-16 h-16 bg-blue-600 rounded-full shadow-2xl">
                   <PlayIcon className="w-7 h-7 text-white ml-1" fill="white" />
                 </div>
               </div>
@@ -134,7 +134,7 @@ const VideoCard = ({ video, index }) => {
 
             {/* Video Badge */}
             <div className="absolute top-4 left-4 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-              <span className="inline-flex items-center px-3 py-1 rounded-full text-xs font-medium bg-red-600 text-white shadow-lg">
+              <span className="inline-flex items-center px-3 py-1 rounded-full text-xs font-medium bg-blue-600 text-white shadow-lg">
                 Video #{String(index + 1).padStart(2, '0')}
               </span>
             </div>
@@ -154,7 +154,7 @@ const VideoCard = ({ video, index }) => {
           {/* Content */}
           <div className="p-6">
             {/* Title */}
-            <h3 className="font-bold text-lg text-gray-900 dark:text-white mb-3 line-clamp-2 leading-tight group-hover:text-red-600 dark:group-hover:text-red-400 transition-colors duration-300">
+            <h3 className="font-bold text-lg text-gray-900 dark:text-white mb-3 line-clamp-2 leading-tight group-hover:text-blue-600 dark:group-hover:text-blue-400 transition-colors duration-300">
               {video.title}
             </h3>
 
@@ -174,7 +174,7 @@ const VideoCard = ({ video, index }) => {
               </div>
 
               {/* Watch Link */}
-              <div className="flex items-center space-x-2 text-sm text-red-600 dark:text-red-400 font-medium group-hover:text-red-700 dark:group-hover:text-red-300 transition-colors duration-300">
+              <div className="flex items-center space-x-2 text-sm text-blue-600 dark:text-blue-400 font-medium group-hover:text-blue-700 dark:group-hover:text-blue-300 transition-colors duration-300">
                 <span className="hidden sm:inline">Watch</span>
                 <div className="w-4 h-4 transform group-hover:translate-x-1 transition-transform duration-300">
                   <ExternalLinkIcon className="w-4 h-4" />
@@ -208,7 +208,7 @@ const EmptyState = () => (
         href="https://youtube.com"
         target="_blank"
         rel="noopener noreferrer"
-        className="inline-flex items-center px-6 py-3 bg-red-600 text-white rounded-full hover:bg-red-700 transition-colors duration-300 font-medium"
+        className="inline-flex items-center px-6 py-3 bg-blue-600 text-white rounded-full hover:bg-blue-700 transition-colors duration-300 font-medium"
       >
         <VideoIcon className="w-5 h-5 mr-2" />
         Visit our Channel

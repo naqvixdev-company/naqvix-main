@@ -27,18 +27,18 @@ const ServiceCard = ({
     <article
       onMouseEnter={() => setHovered(true)}
       onMouseLeave={() => setTimeout(() => setHovered(false), 5000)} // 5s fade
-      className="p-3 rounded-2xl border group h-full dark:border-zinc-700 
-                 bg-zinc-50 dark:bg-zinc-900 
-                 shadow-md transition-all duration-500 hover:shadow-xl"
+      className="p-3 rounded-2xl  group h-full dark:border-zinc-700 
+                 bg-zinc-100 dark:bg-zinc-900 
+                 shadow-xk transition-all duration-500 hover:shadow-xl"
       role="article"
       aria-labelledby={`service-${index}-title`}
       aria-describedby={`service-${index}-description`}
     >
-      <div
+      {/* <div
         className="p-6 rounded-2xl 
                      shadow-md transition-all duration-300 hover:shadow-xl
                      h-full flex flex-col"
-      >
+      > */}
         {/* Service Header */}
         <header className="flex items-center gap-3 mb-4">
           <div
@@ -112,7 +112,7 @@ const ServiceCard = ({
         <div className="sr-only">
           Service {index} of {totalServices}
         </div>
-      </div>
+      {/* </div> */}
     </article>
   );
 };

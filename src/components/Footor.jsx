@@ -1,18 +1,13 @@
+
 'use client';
 import Image from 'next/image';
 import Link from 'next/link';
 import React from 'react';
-import {
-  Mail,
-  Phone,
-  MapPin,
-  Facebook,
-  Linkedin,
-  Twitter,
-  Instagram,
-} from 'lucide-react';
+import { Mail, Phone, MapPin, Facebook, Linkedin, Twitter, Instagram } from 'lucide-react';
+import { useTheme } from '@/context/AppContext';
 
 const Footer = () => {
+  const {theme}=useTheme();
   const icons = [
     { Icon: Facebook, color: '#3b5998', label: 'Facebook' },
     { Icon: Instagram, color: '#E1306C', label: 'Instagram' },
@@ -30,38 +25,30 @@ const Footer = () => {
       <div className="absolute inset-0 bg-white/20 dark:bg-zinc-900/30 backdrop-blur-md rounded-2xl border border-white/20 dark:border-white/10 pointer-events-none"></div>
 
       <div className="relative flex flex-col gap-8">
-        <div className="flex items-center justify-between flex-wrap gap-6">
-          <Image
-            src="/assets/whiteLogo.png"
-            width={200}
-            height={200}
-            alt="Naqvix Logo"
-            className="relative z-10"
-          />
-          <p
-            className="w-full text-right md:w-3/4 text-base md:text-lg
-            bg-gradient-to-r from-gray-700 via-gray-800 to-black 
-            bg-clip-text text-transparent
-            dark:bg-gradient-to-r dark:from-zinc-300 dark:via-zinc-400 dark:to-zinc-500 relative z-10"
-          >
-            Empowering Businesses with Technology, Intelligence, and Innovation
-          </p>
-        </div>
+        {/* Main 3-column Layout */}
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 relative z-10">
+          {/* Left - Logo */}
+          <div className="flex items-start justify-center md:justify-start">
+            <Image
+              src={theme==='dark'?"/assets/whiteLogo.png":"/assets/logo.png"}
+              width={200}
+              height={200}
+              alt="Naqvix Logo"
+              className="relative z-10"
+            />
+          </div>
 
-        <hr className="w-full border-t border-white/20 dark:border-white/10" />
-
-        <div className="flex justify-between w-full flex-wrap gap-8 relative z-10">
-          {/* Links */}
-          <div className="flex flex-col gap-2 text-gray-800 dark:text-gray-200">
+          {/* Middle - Links */}
+          <div className="flex flex-col items-center md:items-start">
             <h5 className="text-xl font-bold mb-2 dark:text-white text-purple-400">
               Links
             </h5>
-            {['HOME', 'ABOUT', 'SERVICES', 'COMMUNITY','BLOGS', 'CONTACT'].map(
+            {['HOME', 'ABOUT', 'SERVICES', 'COMMUNITY', 'BLOGS', 'CONTACT'].map(
               (link, i) => (
                 <Link
                   key={i}
                   href={`/${link.toLowerCase().replace(/\s+/g, '-')}`}
-                  className="hover:text-blue-600 dark:hover:text-blue-400 transition-colors"
+                  className="hover:text-blue-600 dark:hover:text-blue-400 dark:text-white  transition-colors"
                 >
                   {link}
                 </Link>
@@ -69,7 +56,7 @@ const Footer = () => {
             )}
           </div>
 
-          {/* Contacts */}
+          {/* Right - Contacts */}
           <div className="flex flex-col gap-4 text-gray-800 dark:text-gray-200">
             <h5 className="text-xl font-bold mb-2 dark:text-white text-purple-400">
               Contacts
@@ -87,29 +74,29 @@ const Footer = () => {
               <span>Lahore, Pakistan</span>
             </div>
           </div>
+        </div>
 
-          {/* Social Icons */}
-          <div className="flex gap-4 items-center justify-center">
-            {icons.map(({ Icon, color, label }, idx) => (
-              <div
-                key={idx}
-                className="relative group w-12 h-12 flex items-center justify-center"
-              >
-                <span
-                  className="absolute w-16 h-16 rounded-full opacity-0 group-hover:opacity-30 blur-3xl transition-all duration-1000"
-                  style={{
-                    background: `radial-gradient(circle, ${color}55 0%, transparent 70%)`,
-                  }}
-                ></span>
-                <Icon
-                  size={28}
-                  color={color}
-                  aria-label={label}
-                  className="relative z-10"
-                />
-              </div>
-            ))}
-          </div>
+        {/* Separate Social Icons Row */}
+        <div className="flex gap-4 justify-center mt-4 relative z-10">
+          {icons.map(({ Icon, color, label }, idx) => (
+            <div
+              key={idx}
+              className="relative group w-10 h-10 flex items-center justify-center"
+            >
+              <span
+                className="absolute w-12 h-12 rounded-full opacity-0 group-hover:opacity-30 blur-3xl transition-all duration-1000"
+                style={{
+                  background: `radial-gradient(circle, ${color}55 0%, transparent 70%)`,
+                }}
+              ></span>
+              <Icon
+                size={24}
+                color={color}
+                aria-label={label}
+                className="relative z-10"
+              />
+            </div>
+          ))}
         </div>
 
         <hr className="w-full border-t border-white/20 dark:border-white/10" />

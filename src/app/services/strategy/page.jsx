@@ -45,7 +45,7 @@ const page = () => {
         <div className="flex flex-col   w-full lg:w-[60%] gap-5">
           <h1
             className="text-[7vw] md:text-[3.5vw] text-center lg:text-left font-extrabold leading-tight 
-            bg-gradient-to-r from-blue-500 via-purple-500 to-purple-700 
+            bg-gradient-to-r from-blue-500 via-blue-700 to-purple-700 
             bg-clip-text text-transparent
             dark:bg-gradient-to-r dark:from-white dark:via-zinc-200 dark:to-zinc-400"
           >
@@ -60,7 +60,7 @@ const page = () => {
             Naqvix provides expert consulting to help businesses adopt
             technology, improve processes, and scale efficiently.
           </p>
-          <div className="w-[250px] m-auto lg:m-0">
+          <div className="w-[175px] m-auto lg:m-0">
             <GlassButton text="Book Session" href="/contact" />
           </div>
         </div>
@@ -82,7 +82,7 @@ const page = () => {
         </div>
       </div>
       <div className="flex flex-col items-center justify-center mt-20 gap-5">
-        <UHeading text={'OUR AUTOMATION SERVICES'} />
+        <UHeading text={'OUR CONSULTANCY   SERVICES'} />
         <div className="flex flex-wrap mt-5 justify-center gap-6 p-4">
           {strategyServices.map((service, idx) => (
             <div
@@ -99,7 +99,7 @@ const page = () => {
       </div>
       <div className="flex gap-10 flex-col md:flex-row mt-5 mb-20">
         <div className="flex flex-col border rounded-xl  dark:border-white border-neutral-600 w-full  md:w-[40%] p-4 items-center justify-center">
-          <h1 className="dark:text-zinc-500 text-center font-bold text-2xl">
+          <h1 className="dark:text-white text-center font-bold text-2xl">
             Expert guidance at every step
           </h1>
           <div className="sm:flex items-center justify-center hidden w-full">
@@ -113,7 +113,7 @@ const page = () => {
               style={{ width: 200, height: 200 }}
             ></lord-icon>
           </div>
-          <p className="text-center dark:text-white">
+          <p className="text-center dark:text-neutral-500">
             Get seasoned consultants who clarify priorities, de-risk decisions,
             and coach your team through discovery, planning, implementation, and
             post-launch support.
@@ -122,10 +122,10 @@ const page = () => {
         <div className="flex flex-col ">
           <div className="flex sm:flex-row flex-col border rounded-xl  dark:border-white border-neutral-600  gap-10 justify-center p-5 ">
             <div className="flex flex-col items-center justify-center w-full sm:w-[50%] gap-5">
-              <h1 className="dark:text-zinc-500 text-center font-bold text-2xl">
+              <h1 className="dark:text-white text-center font-bold text-2xl">
                 Tailored strategies for your business
               </h1>
-              <p className="text-center dark:text-white">
+              <p className="text-center dark:text-neutral-500">
                 We analyze your goals, industry, and constraints to design
                 pragmatic roadmaps that fit your budget, stack, and growth
                 stage—not generic playbooks.
@@ -145,7 +145,7 @@ const page = () => {
           </div>
           <div className="flex flex-col sm:flex-row gap-5 mt-5">
             <div className="flex p-5 border rounded-xl  dark:border-white border-neutral-600 flex-col  sm:w-[50%] w-full items-center justify-center">
-              <h1 className="dark:text-zinc-500 text-center font-bold text-2xl">
+              <h1 className="dark:text-white text-center font-bold text-2xl">
                 Improved efficiency and productivity
               </h1>
               <div className="sm:flex items-center justify-center hidden w-full">
@@ -159,14 +159,14 @@ const page = () => {
                   style={{ width: 150, height: 150 }}
                 ></lord-icon>
               </div>
-              <p className="text-center dark:text-white">
+              <p className="text-center dark:text-neutral-500">
                 Streamlined processes, automation, and clear KPIs remove
                 bottlenecks, reduce rework, and help teams deliver more in less
                 time with higher quality.
               </p>
             </div>
             <div className="flex border dark:border-white border-neutral-600 rounded-xl p-5 flex-col   sm:w-[50%] w-full items-center justify-center">
-              <h1 className="dark:text-zinc-500 text-center font-bold text-2xl">
+              <h1 className="dark:text-white text-center font-bold text-2xl">
                 Long-term business growth
               </h1>
               <div className="sm:flex items-center justify-center hidden w-full">
@@ -180,7 +180,7 @@ const page = () => {
                   style={{ width: 150, height: 150 }}
                 ></lord-icon>
               </div>
-              <p className="text-center dark:text-white">
+              <p className="text-center dark:text-neutral-500">
                 Sustainable plans align tech investments with revenue drivers,
                 building repeatable systems for customer acquisition, retention,
                 and scalable operations.

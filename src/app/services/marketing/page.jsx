@@ -90,7 +90,7 @@ const page = () => {
             that deliver measurable results. We focus on building brand
             visibility, attracting customers, and increasing conversions.
           </p>
-          <div className="w-[250px] m-auto lg:m-0">
+          <div className="w-[190px] m-auto lg:m-0">
             <GlassButton text="Boost My Brand" href="/contact" />
           </div>
         </div>
@@ -129,7 +129,7 @@ const page = () => {
       </div>
       <div className="flex gap-10 flex-col md:flex-row mt-5 mb-20">
         <div className="flex flex-col border rounded-xl  dark:border-white border-neutral-600 w-full  md:w-[40%] p-4 items-center justify-center">
-          <h1 className="dark:text-zinc-500 text-center font-bold text-2xl">
+          <h1 className="dark:text-white text-center font-bold text-2xl">
             Data Driven Strategies
           </h1>
           <div className="sm:flex items-center justify-center hidden w-full">
@@ -143,17 +143,17 @@ const page = () => {
               style={{ width: 200, height: 200 }}
             ></lord-icon>
           </div>
-          <p className="text-center dark:text-white">
+          <p className="text-center dark:text-neutral-500">
             We craft campaigns built on real insights, not guesses.
           </p>
         </div>
         <div className="flex flex-col ">
           <div className="flex sm:flex-row flex-col border rounded-xl  dark:border-white border-neutral-600  gap-10 justify-center p-5 ">
             <div className="flex flex-col items-center justify-center w-full sm:w-[50%] gap-5">
-              <h1 className="dark:text-zinc-500 text-center font-bold text-2xl">
+              <h1 className="dark:text-white text-center font-bold text-2xl">
                 Creative Content
               </h1>
-              <p className="text-center dark:text-white">
+              <p className="text-center dark:text-neutral-500">
                 Fresh ideas that instantly grab your audience’s attention.
               </p>
             </div>
@@ -171,7 +171,7 @@ const page = () => {
           </div>
           <div className="flex flex-col sm:flex-row gap-5 mt-5">
             <div className="flex p-5 border rounded-xl  dark:border-white border-neutral-600 flex-col  sm:w-[50%] w-full items-center justify-center">
-              <h1 className="dark:text-zinc-500 text-center font-bold text-2xl">
+              <h1 className="dark:text-white text-center font-bold text-2xl">
                 Increased online visibility
               </h1>
               <div className="sm:flex items-center justify-center hidden w-full">
@@ -185,12 +185,12 @@ const page = () => {
                   style={{ width: 150, height: 150 }}
                 ></lord-icon>
               </div>
-              <p className="text-center dark:text-white">
+              <p className="text-center dark:text-neutral-500">
                 Helping your brand shine across every digital channel.
               </p>
             </div>
             <div className="flex border dark:border-white border-neutral-600 rounded-xl p-5 flex-col   sm:w-[50%] w-full items-center justify-center">
-              <h1 className="dark:text-zinc-500 text-center font-bold text-2xl">
+              <h1 className="dark:text-white text-center font-bold text-2xl">
                 Better ROI
               </h1>
               <div className="sm:flex items-center justify-center hidden w-full">
@@ -204,7 +204,7 @@ const page = () => {
                   style={{ width: 150, height: 150 }}
                 ></lord-icon>
               </div>
-              <p className="text-center dark:text-white">
+              <p className="text-center dark:text-neutral-500">
                 Smarter marketing that delivers maximum value.
               </p>
             </div>

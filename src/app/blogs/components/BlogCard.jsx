@@ -23,13 +23,13 @@ const BlogCard = ({ title, subtitle, imageUrl, description, id }) => {
       <div className="p-5 h-48 flex flex-col justify-between">
         <div className="flex-1">
           {/* Title */}
-          <h3 className="text-lg font-bold text-zinc-400 mb-2 line-clamp-2 leading-tight">
+          <h3 className="text-lg font-bold dark:text-white mb-2 line-clamp-2 leading-tight">
             {title}
           </h3>
 
           {/* Subtitle */}
           {subtitle && (
-            <p className="text-sm font-medium text-zinc-900 mb-2 ">
+            <p className="text-sm font-medium text-neutral-800 mb-2 ">
               {subtitle}
             </p>
           )}
@@ -39,7 +39,7 @@ const BlogCard = ({ title, subtitle, imageUrl, description, id }) => {
         <div className="mt-auto">
           <a
             href={`/blogs/${id}`}
-            className="inline-flex items-center dark:text-white/90 text-blue-600 hover:text-purple-600 font-medium text-sm group-hover:gap-2 gap-1 transition-all duration-200"
+            className="inline-flex items-center dark:text-white/90 text-blue-600 hover:text-blue-400 font-medium text-sm group-hover:gap-2 gap-1 transition-all duration-200"
           >
             Read More
             <svg
