@@ -25,8 +25,8 @@ const Footer = () => {
       <div className="absolute inset-0 bg-white/20 dark:bg-zinc-900/30 backdrop-blur-md rounded-2xl border border-white/20 dark:border-white/10 pointer-events-none"></div>
 
       <div className="relative flex flex-col gap-8">
-        {/* Main 3-column Layout */}
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 relative z-10">
+        {/* Main 4-column Layout */}
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 relative z-10">
           {/* Left - Logo */}
           <div className="flex items-start justify-center md:justify-start">
             <Image
@@ -56,6 +56,28 @@ const Footer = () => {
             )}
           </div>
 
+          {/* Third - Legal */}
+          <div className="flex flex-col items-center md:items-start">
+            <h5 className="text-xl font-bold mb-2 dark:text-white text-purple-400">
+              Legal
+            </h5>
+            {[
+              'Terms and Conditions',
+              'Privacy Policy', 
+              'Complaints Cell',
+              'Delivery or Termination',
+              'Refund Policy'
+            ].map((link, i) => (
+              <Link
+                key={i}
+                href={`/${link.toLowerCase().replace(/\s+/g, '-')}`}
+                className="hover:text-blue-600 dark:hover:text-blue-400 dark:text-white transition-colors"
+              >
+                {link}
+              </Link>
+            ))}
+          </div>
+
           {/* Right - Contacts */}
           <div className="flex flex-col gap-4 text-gray-800 dark:text-gray-200">
             <h5 className="text-xl font-bold mb-2 dark:text-white text-purple-400">
@@ -67,11 +89,11 @@ const Footer = () => {
             </div>
             <div className="flex items-center gap-3 group">
               <Phone className={iconStyle} />
-              <span>+92 123 4567890</span>
+              <span>+92 3222 777 414</span>
             </div>
             <div className="flex items-center gap-3 group">
               <MapPin className={iconStyle} />
-              <span>Lahore, Pakistan</span>
+              <span>Plaza#289, First Floor, Q Block (Commercial Lane) DHA, Phase 2, Lahore</span>
             </div>
           </div>
         </div>
