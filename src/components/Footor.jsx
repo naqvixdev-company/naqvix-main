@@ -1,13 +1,20 @@
-
 'use client';
 import Image from 'next/image';
 import Link from 'next/link';
 import React from 'react';
-import { Mail, Phone, MapPin, Facebook, Linkedin, Twitter, Instagram } from 'lucide-react';
+import {
+  Mail,
+  Phone,
+  MapPin,
+  Facebook,
+  Linkedin,
+  Twitter,
+  Instagram,
+} from 'lucide-react';
 import { useTheme } from '@/context/AppContext';
 
 const Footer = () => {
-  const {theme}=useTheme();
+  const { theme } = useTheme();
   const icons = [
     { Icon: Facebook, color: '#3b5998', label: 'Facebook' },
     { Icon: Instagram, color: '#E1306C', label: 'Instagram' },
@@ -30,7 +37,9 @@ const Footer = () => {
           {/* Left - Logo */}
           <div className="flex items-start justify-center md:justify-start">
             <Image
-              src={theme==='dark'?"/assets/whiteLogo.png":"/assets/logo.png"}
+              src={
+                theme === 'dark' ? '/assets/whiteLogo.png' : '/assets/logo.png'
+              }
               width={200}
               height={200}
               alt="Naqvix Logo"
@@ -63,10 +72,10 @@ const Footer = () => {
             </h5>
             {[
               'Terms and Conditions',
-              'Privacy Policy', 
+              'Privacy Policy',
               'Complaints Cell',
               'Delivery or Termination',
-              'Refund Policy'
+              'Refund Policy',
             ].map((link, i) => (
               <Link
                 key={i}
@@ -93,7 +102,14 @@ const Footer = () => {
             </div>
             <div className="flex items-center gap-3 group">
               <MapPin className={iconStyle} />
-              <span>Plaza#289, First Floor, Q Block (Commercial Lane) DHA, Phase 2, Lahore</span>
+              <span>
+                Plaza#289, First Floor, Q Block (Commercial Lane) DHA, Phase 2,
+                Lahore
+              </span>
+            </div>
+            <div className="flex items-center gap-3 group">
+              <MapPin className={iconStyle} />
+              <span>30 N Gould St Ste N, Sheridan, WY 82801</span>
             </div>
           </div>
         </div>
