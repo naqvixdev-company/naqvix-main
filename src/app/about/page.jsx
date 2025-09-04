@@ -223,7 +223,7 @@ const AboutUs = () => {
               trusted technology partner. Let's discuss how we can help you
               achieve your goals and build something extraordinary together.
             </p>
-            <div className="w-full sm:max-w-[250px] md:max-w-[280px] lg:max-w-[320px]">
+            <div className="w-full max-w-[230px]">
               <GlassButton text="Start a Conversation" />
             </div>
           </div>

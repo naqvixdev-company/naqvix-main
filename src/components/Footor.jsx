@@ -52,7 +52,7 @@ const Footer = () => {
             <h5 className="text-xl font-bold mb-2 dark:text-white text-purple-400">
               Links
             </h5>
-            {['HOME', 'ABOUT', 'SERVICES', 'COMMUNITY', 'BLOGS', 'CONTACT'].map(
+            {['Home', 'About', 'Services', 'Community', 'Blogs', 'Contact'].map(
               (link, i) => (
                 <Link
                   key={i}
@@ -98,18 +98,22 @@ const Footer = () => {
             </div>
             <div className="flex items-center gap-3 group">
               <Phone className={iconStyle} />
+              <span>+1 (307) 310-2549</span>
+            </div>
+            <div className="flex items-center gap-3 group">
+              <Phone className={iconStyle} />
               <span>+92 3222 777 414</span>
             </div>
             <div className="flex items-center gap-3 group">
               <MapPin className={iconStyle} />
-              <span>
-                Plaza#289, First Floor, Q Block (Commercial Lane) DHA, Phase 2,
-                Lahore
-              </span>
+              <span>30 N Gould St Ste N, Sheridan, WY 82801</span>
             </div>
             <div className="flex items-center gap-3 group">
               <MapPin className={iconStyle} />
-              <span>30 N Gould St Ste N, Sheridan, WY 82801</span>
+              <span>
+               Back Office: Plaza No 289, First Floor, Q Block (Commercial Lane) DHA, Phase 2,
+                Lahore 
+              </span>
             </div>
           </div>
         </div>

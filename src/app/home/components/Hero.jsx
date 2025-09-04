@@ -95,7 +95,7 @@ const Hero = () => {
 
       {/* INTERACTIVE VISUAL ELEMENT */}
       <aside
-        className="w-fit hidden lg:flex md:w-[50%]  h-fit md:h-full relative"
+        className="w-fit hidden lg:flex md:w-[55%]  h-fit md:h-full relative"
         aria-label="Interactive 3D animation showcasing technology innovation"
       >
         <Spline

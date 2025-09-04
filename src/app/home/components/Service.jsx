@@ -181,7 +181,7 @@ const Service = () => {
         <UHeading text={'OUR SERVICES'} />
 
         <p
-          className="w-full md:w-3/4 text-base md:text-lg mx-auto
+          className="w-full  text-base md:text-lg mx-auto
           bg-gradient-to-r from-gray-700 via-gray-800 to-black 
           bg-clip-text text-transparent
           dark:bg-gradient-to-r dark:from-zinc-300 dark:via-zinc-400 dark:to-zinc-500"
