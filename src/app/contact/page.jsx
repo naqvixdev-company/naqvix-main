@@ -71,10 +71,10 @@ export default function Contact() {
         <h2 id="contact-methods" className="sr-only">How to Reach Us</h2>
         
         {/* Location/Map */}
-        <div className="w-[90%] mx-auto" role="region" aria-labelledby="office-location">
+        {/* <div className="w-[90%] mx-auto" role="region" aria-labelledby="office-location">
           <h3 id="office-location" className="sr-only">Our Location</h3>
           <LeafletMap />
-        </div>
+        </div> */}
 
         {/* Contact Form */}
         <div role="region" aria-labelledby="contact-form">
