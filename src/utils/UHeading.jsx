@@ -27,7 +27,7 @@ const UHeading = ({ text }) => {
        
       {/* Heading */}
       <h2
-        className="text-[3.5vw] font-extrabold leading-tight
+        className="text-[7.5vw] md:text-[3.5vw] font-extrabold leading-tight
            bg-gradient-to-r from-blue-600 via-blue-500 to-purple-500
            bg-clip-text text-transparent
           dark:bg-gradient-to-r dark:from-white dark:via-zinc-200 dark:to-zinc-400"

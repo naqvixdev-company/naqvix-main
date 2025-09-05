@@ -102,7 +102,7 @@ const Navbar = () => {
       <div className="relative">
         {/* Logo */}
         <Image
-          src={theme === 'dark' ? '/assets/whiteLogo.png' : '/assets/logo.png'}
+          src={theme === 'dark' ? '/assets/whiteLogo.png' : '/assets/logo.jpg'}
           width={200}
           height={50}
           alt="logo"
@@ -259,7 +259,7 @@ const Navbar = () => {
                           hover:text-zinc-900 dark:hover:text-neutral-300
                           ${
                             isActive
-                              ? 'text-zinc-900 dark:text-neutral-200 bg-gradient-to-r from-purple-500 via-pink-500 to-yellow-500 bg-opacity-10'
+                              ? 'text-zinc-900 dark:text-neutral-200 bg-gradient-to-r from-blue-500  to-purple-500 bg-opacity-10'
                               : 'text-zinc-600 dark:text-neutral-400'
                           }`}
                       >
@@ -310,7 +310,7 @@ const Navbar = () => {
                         hover:text-zinc-900 dark:hover:text-neutral-300
                         ${
                           isActive
-                            ? 'text-zinc-900 dark:text-neutral-200 bg-gradient-to-r from-purple-500 via-pink-500 to-yellow-500 bg-opacity-10'
+                            ? 'text-zinc-900 dark:text-neutral-200 bg-gradient-to-r from-blue-500  to-purple-500 bg-opacity-10'
                             : 'text-zinc-600 dark:text-neutral-400'
                         }`}
                     >

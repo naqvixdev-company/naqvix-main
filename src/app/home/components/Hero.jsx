@@ -25,7 +25,7 @@ const Hero = () => {
         {/* Main heading */}
         <h1
           id="hero-section"
-          className="text-[3.5vw] text-center lg:text-left md:text-[3.5vw] font-extrabold leading-tight 
+          className="text-[8.5vw] text-center lg:text-left md:text-[3.5vw] font-extrabold leading-tight 
             bg-gradient-to-r from-blue-500 via-purple-500 to-purple-700 
             bg-clip-text text-transparent
             dark:bg-gradient-to-r dark:from-white dark:via-zinc-200 dark:to-zinc-400"

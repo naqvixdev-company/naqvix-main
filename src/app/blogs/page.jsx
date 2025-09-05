@@ -104,11 +104,11 @@ export default function Blogs() {
   }, [fetchBlogs]);
 
   return (
-    <main className="flex flex-col items-center justify-center p-4 w-full gap-5 my-15">
+    <main className="flex flex-col items-center justify-center p-4 w-full gap-5 my:10 lg:my-15">
       {/* Header Section */}
       <div className="flex flex-col items-center justify-center gap-5">
         <h1
-          className="text-[6vw] w-[90%] text-center md:text-[3.5vw] font-extrabold leading-tight 
+          className="text-[8.5vw] w-[90%] text-center md:text-[3.5vw] font-extrabold leading-tight 
     bg-gradient-to-r 
     from-blue-500 from-[0%] 
     via-blue-500 via-[70%] 

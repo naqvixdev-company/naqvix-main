@@ -19,7 +19,7 @@ const Navigation = ({
           flex items-center gap-2 px-6 py-3 rounded-lg font-medium transition-all duration-200 group
           ${hasPrev && !isLoading
             ? 'bg-gradient-to-r from-blue-600 to-purple-600 text-white hover:from-blue-700 hover:to-purple-700 hover:scale-105 shadow-lg hover:shadow-xl' 
-            : 'bg-gray-200 text-gray-400 cursor-not-allowed'
+            : 'bg-gray-500 text-black cursor-not-allowed'
           }
         `}
       >

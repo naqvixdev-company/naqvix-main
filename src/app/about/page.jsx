@@ -37,16 +37,16 @@ const AboutUs = () => {
     <div className="min-h-screen bg-white dark:bg-[#0F0E0E] overflow-x-hidden text-sm">
       {/* Our Story Section - reduced padding and improved mobile layout */}
       <section className="w-full pt-6 sm:pt-8 md:pt-12 lg:pt-20 pb-4 sm:pb-6 md:pb-8 lg:pb-16 flex flex-col lg:flex-row items-center justify-center gap-3 sm:gap-4 md:gap-6 lg:gap-10 px-2 sm:px-3 md:px-4 lg:px-8">
-        <div className="w-full lg:w-1/3 flex items-center justify-center order-1 lg:order-none">
+        <div className="w-full my-10 lg:my-0 lg:w-1/3 flex items-center justify-center order-1 lg:order-none">
           <img
             src="/assets/about.webp"
             width="300"
             height="300"
             alt="About Naqvix"
-            className="w-full max-w-[180px] sm:max-w-[220px] md:max-w-[280px] lg:max-w-[350px] h-auto object-cover rounded-lg sm:rounded-xl md:rounded-2xl shadow-2xl"
+            className="w-full  lg:max-w-[400px] h-auto object-cover rounded-lg sm:rounded-xl md:rounded-2xl shadow-2xl"
           />
         </div>
-        <div className="flex flex-col gap-2 sm:gap-3 md:gap-4 lg:gap-5 w-full lg:w-1/2 order-2 lg:order-none">
+        <div className="flex flex-col my-5 lg:my-0 gap-2 sm:gap-3 md:gap-4 lg:gap-5 w-full lg:w-1/2 order-2 lg:order-none">
           <UHeading text={'OUR STORY'} />
           <GlassmorphismCard className="w-full" textSize="text-sm">
             <p className="break-words hyphens-auto">
@@ -65,7 +65,7 @@ const AboutUs = () => {
       {/* Mission & Vision Section - reduced padding and improved spacing */}
       <section className="w-full py-4 sm:py-6 md:py-8 lg:py-16 px-2 sm:px-3 md:px-4 lg:px-8">
         <div className="max-w-6xl mx-auto">
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-3 sm:gap-4 md:gap-6 lg:gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-5 sm:gap-4 md:gap-6 lg:gap-8">
             <div className="space-y-2 sm:space-y-3 md:space-y-4">
               <UHeading text={'OUR MISSION'} />
               <GlassmorphismCard className="w-full h-full" textSize="text-sm">

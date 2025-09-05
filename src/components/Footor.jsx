@@ -38,7 +38,7 @@ const Footer = () => {
           <div className="flex items-start justify-center md:justify-start">
             <Image
               src={
-                theme === 'dark' ? '/assets/whiteLogo.png' : '/assets/logo.png'
+                theme === 'dark' ? '/assets/whiteLogo.png' : '/assets/logo.jpg'
               }
               width={200}
               height={200}

@@ -6,7 +6,7 @@ import Gallery from './components/Gallery';
 const Community = () => {
   return (
     <main className="my-10">
-      <section className="flex gap-5 flex-col md:w-[90%] mt-10 w-full justify-center items-center m-auto">
+      <section className="flex gap-5 flex-col px-5 md:w-[90%] mt-10 w-full justify-center items-center m-auto">
         <h1
           className="text-[6vw] w-[90%] text-center  md:text-[3.25vw] font-extrabold leading-tight 
             bg-gradient-to-r from-blue-500 via-purple-500 to-purple-700 

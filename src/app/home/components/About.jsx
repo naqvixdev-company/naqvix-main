@@ -113,7 +113,7 @@ const About = () => {
         <div className="space-y-4">
           <GlassmorphismCard className="w-full" textSize="text-sm">
             <div className="space-y-3">
-              <p className="leading-relaxed">
+              <p className="leading-relaxed text-center md:text-left">
                 We started NAQVIX with a simple belief: businesses deserve
                 smarter support. Whether you’re a start-up chasing growth or an
                 enterprise managing scale, we step in as your reliable partner.
@@ -123,7 +123,7 @@ const About = () => {
                 cut costs, and deliver better results to your customers.
               </p>
 
-              <p className="leading-relaxed font-semibold">
+              <p className="leading-relaxed font-semibold text-center md:text-left">
                 We don’t just ‘provide services. ’ We build long-term
                 relationships. Because when you grow, we grow too. ”
               </p>

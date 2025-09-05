@@ -18,7 +18,7 @@ const CategorySelector = ({ onCategoryChange, selectedCategory = 'All', isLoadin
   };
 
   return (
-    <div className="flex flex-wrap gap-3 p-4">
+    <div className="flex items-center justify-center flex-wrap gap-3 p-4">
       {categories.map((category) => (
         <div
           key={category}
