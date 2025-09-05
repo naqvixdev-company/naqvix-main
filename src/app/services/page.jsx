@@ -178,7 +178,7 @@ const ServicesPage = () => {
   return (
     <>
       <main
-        className="w-full px-10 my-15 flex flex-col"
+        className="w-full px-5 lg:px-10 my-10 lg:my-15 flex flex-col"
         role="main"
         aria-labelledby="services-heading"
       >
@@ -194,7 +194,7 @@ const ServicesPage = () => {
         <header className="flex flex-col items-center justify-center gap-5 mb-10">
           <h1
             id="services-heading"
-            className="text-[7vw] md:text-[3.25vw] md:w-2/3 text-center font-extrabold leading-tight 
+            className="text-[8vw] md:text-[5vw] lg:text-[3.25vw] md:w-2/3 text-center font-extrabold leading-tight 
               bg-gradient-to-r from-blue-500 via-purple-500 to-purple-700 
               bg-clip-text text-transparent
               dark:bg-gradient-to-r dark:from-white dark:via-zinc-200 dark:to-zinc-400"
