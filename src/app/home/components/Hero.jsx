@@ -106,6 +106,9 @@ const Hero = () => {
           }
           className="absolute z-10 lg:top-0 left-10  inset-0 w-full h-full"
         />
+         <div className='w-40 h-20 z-10 absolute bottom-0 -right-10 dark:bg-[#0F0E0E] bg-white'>
+
+         </div>
 
         {/* <ModelCanvas/> */}
         {/* <iframe

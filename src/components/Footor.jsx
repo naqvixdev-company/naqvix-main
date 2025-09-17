@@ -278,17 +278,12 @@ const Footer = () => {
               <span>+1 (307) 310-2549</span>
             </div>
             <div className="flex items-center gap-3 group">
-              <Phone className={iconStyle} />
-              <span>+92 3222 777 414</span>
+              <span className='ml-10'>+92 3222 777 414</span>
             </div>
             <div className="flex items-center gap-3 group">
-              <MapPin className={iconStyle} />
-              <span>30 N Gould St Ste N, Sheridan, WY 82801</span>
-            </div>
-            <div className="flex items-center gap-3 group">
-              <MapPin className={iconStyle} />
+              <MapPin className='w-16 h-16 text-blue-500 dark:text-blue-400 transition-all duration-500 group-hover:animate-pulse' />
               <span>
-                Back Office: Plaza No 289, First Floor, Q Block (Commercial
+                Plaza No 289, First Floor, Q Block (Commercial
                 Lane) DHA, Phase 2, Lahore
               </span>
             </div>
