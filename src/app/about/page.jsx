@@ -224,7 +224,7 @@ const AboutUs = () => {
               achieve your goals and build something extraordinary together.
             </p>
             <div className="w-full max-w-[230px]">
-              <GlassButton text="Start a Conversation" />
+              <GlassButton text="Start a Conversation" href='/contact' />
             </div>
           </div>
           <div className="w-full lg:w-auto flex justify-center order-1 lg:order-2">
