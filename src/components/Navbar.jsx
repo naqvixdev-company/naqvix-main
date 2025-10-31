@@ -102,7 +102,7 @@ const Navbar = () => {
       <div className="relative">
         {/* Logo */}
         <Image
-          src={theme === 'dark' ? '/assets/whiteLogo.png' : '/assets/logo.jpg'}
+          src={theme === 'dark' ? '/assets/whiteLogo.png' : '/assets/logo.png'}
           width={200}
           height={50}
           alt="logo"

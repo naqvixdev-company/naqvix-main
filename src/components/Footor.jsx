@@ -192,7 +192,7 @@ const Footer = () => {
           <div className="flex flex-col items-center md:items-start gap-4 flex-1 min-w-[220px]">
             <Image
               src={
-                theme === 'dark' ? '/assets/whiteLogo.png' : '/assets/logo.jpg'
+                theme === 'dark' ? '/assets/whiteLogo.png' : '/assets/logo.png'
               }
               width={200}
               height={200}
