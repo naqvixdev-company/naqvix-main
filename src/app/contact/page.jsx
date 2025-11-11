@@ -1,24 +1,4 @@
-// // app/contact/page.tsx (server component by default)
-// import LeafletMap from "./components/LeafletMap";
-// import ContactForm from "./components/ContactForm";
 
-// export default function Contact() {
-//   return (
-//     <main className="w-full px-10 my-10">
-//       <h1
-//         className="text-[7vw] text-center w-[90%] m-auto md:text-[3.25vw] font-extrabold leading-tight 
-//           bg-gradient-to-r from-blue-500 via-purple-500 to-purple-700 
-//           bg-clip-text text-transparent
-//           dark:bg-gradient-to-r dark:from-white dark:via-zinc-200 dark:to-zinc-400"
-//       >
-//         Empowering Businesses with Technology, Intelligence, and Innovation
-//       </h1>
-//       <LeafletMap />
-
-//       <ContactForm />
-//     </main>
-//   );
-// }
 
 
 import LeafletMap from "./components/LeafletMap";
@@ -69,12 +49,7 @@ export default function Contact() {
       {/* Contact Methods Section */}
       <section aria-labelledby="contact-methods" className="mb-12">
         <h2 id="contact-methods" className="sr-only">How to Reach Us</h2>
-        
-        {/* Location/Map */}
-        {/* <div className="w-[90%] mx-auto" role="region" aria-labelledby="office-location">
-          <h3 id="office-location" className="sr-only">Our Location</h3>
-          <LeafletMap />
-        </div> */}
+
 
         {/* Contact Form */}
         <div role="region" aria-labelledby="contact-form">
